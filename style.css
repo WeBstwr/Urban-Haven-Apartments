@@ -345,3 +345,10 @@ body {
   line-height: 1.7;
   color: var(--secondary-color);
 }
+
+.space-item-cta {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #444;
+  font-size: 20px;
+}
