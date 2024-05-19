@@ -352,3 +352,22 @@ body {
   color: #444;
   font-size: 20px;
 }
+
+.your-contact-textbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: var(--secondary-font-family);
+  color: #555;
+  font-size: 20px;
+}
+
+::placeholder{
+  background-color: #B0A695;
+}
+
+textarea{
+  background-color: #B0A695;
+}
