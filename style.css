@@ -34,19 +34,13 @@ body {
   z-index: 100;
 }
 
-@media screen and (max-width: 52.8125em) {
+@media screen and (max-width: 37.5em) {
   .header {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 32.8125em) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 .header-logo-wrapper {
   text-decoration: none;
@@ -368,6 +362,13 @@ body {
 
 textarea {
   background-color: #b0a695;
+}
+
+button{
+  background-color: #b0a695;
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+  color: #333;
 }
 
 .footer {
