@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&display=swap")
-
-
-  * {
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&display=swap") * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +6,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: #B0A695;
+  background-color: #b0a695;
 }
 
 html,
@@ -17,12 +14,12 @@ body {
   overflow-x: hidden;
 }
 
-:root{
+:root {
   --primary-color: #000;
   --secondary-color: #666;
   --tertiary-color: #fff;
   --primary-font-family: "Bebas Neue", sans-serif;
-  --secondary-font-family: font-family: "Courgette", cursive;;
+  --secondary-font-family: font-family: "Courgette", cursive;
 }
 
 .header {
@@ -38,61 +35,60 @@ body {
 }
 
 @media screen and (max-width: 52.8125em) {
-  .header{
+  .header {
     display: flex;
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 32.8125em) {
-  .header{
+  .header {
     display: flex;
     flex-direction: column;
   }
 }
 
-.header-logo-wrapper{
+.header-logo-wrapper {
   text-decoration: none;
   color: var(--color-black);
 }
 
-.header-logo-text{
+.header-logo-text {
   font-family: var(--primary-font-family);
   font-size: 3rem;
   color: var(--color-black);
   text-transform: capitalize;
-  
 }
 
-.header-nav-list{
+.header-nav-list {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   font-size: 2rem;
   gap: 10px;
-  text-transform: capitalize; 
+  text-transform: capitalize;
 }
 
-.header-nav-link{
+.header-nav-link {
   text-decoration: none;
   color: var(--secondary-color);
 }
 
-.home{
+.home {
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/home.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./assets/home.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: 5rem; */
   position: relative;
 }
 
-.home-textbox{
+.home-textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,7 +127,6 @@ body {
   font-size: 20px;
 }
 
-
 @media screen and (max-width: 25em) {
   .home-subtitle {
     font-size: 4rem;
@@ -166,7 +161,7 @@ body {
   }
 }
 
-.about-textbox{
+.about-textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,7 +169,7 @@ body {
   gap: 2rem;
 }
 
-.about-text{
+.about-text {
   text-align: center;
   letter-spacing: 1.8px;
   font-size: 1.4rem;
@@ -182,7 +177,7 @@ body {
   line-height: 2;
 }
 
-.about-cta{
+.about-cta {
   text-decoration: none;
   text-transform: capitalize;
   color: var(--secondary-color);
@@ -194,7 +189,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .title-subtitle {
   font-family: var(--secondary-font-family);
@@ -241,14 +235,13 @@ body {
   flex-direction: row-reverse;
 }
 
-.amenities-textbox{
+.amenities-textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
 }
-
 
 .amenities-image--img {
   width: 50rem;
@@ -300,26 +293,24 @@ body {
   font-family: var(--secondary-font-family);
 }
 
-.spaces{
+.spaces {
   padding: 6rem 2rem;
 }
 
-.spaces-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 3rem;
-    row-gap: 4rem;
-    margin-top: 2rem;
+.spaces-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  row-gap: 4rem;
+  margin-top: 2rem;
 }
 
-.space-item{
+.space-item {
   width: 37rem;
-  /* display: flex;
-  flex-direction: row; */
 }
 
-.space-item-image{
+.space-item-image {
   height: 25rem;
   border-radius: 10px;
   overflow: hidden;
@@ -353,7 +344,7 @@ body {
   font-size: 20px;
 }
 
-.your-contact-textbox{
+.your-contact-textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -364,12 +355,19 @@ body {
   font-size: 20px;
 }
 
-::placeholder{
-  background-color: #B0A695;
+.contact-cta{
+  text-decoration: none;
+  color: #222;
+  text-transform: capitalize;
+
 }
 
-textarea{
-  background-color: #B0A695;
+::placeholder {
+  background-color: #b0a695;
+}
+
+textarea {
+  background-color: #b0a695;
 }
 
 .footer {
