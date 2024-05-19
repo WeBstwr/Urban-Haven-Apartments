@@ -371,3 +371,15 @@ body {
 textarea{
   background-color: #B0A695;
 }
+
+.footer {
+  background-color: #444;
+  padding: 0.5rem;
+  margin-top: 4rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
