@@ -190,6 +190,7 @@ body {
   text-transform: capitalize;
   font-size: 4rem;
   text-align: center;
+  margin-top: 4px;
 }
 
 .title-maintitle {
@@ -277,6 +278,7 @@ body {
   justify-content: right;
   align-items: center;
   text-align: center;
+  gap: 1px;
 }
 
 .title-maintitle {
@@ -285,6 +287,7 @@ body {
   letter-spacing: 2px;
   text-align: center;
   font-family: var(--secondary-font-family);
+  margin: 2px;
 }
 
 .spaces {
